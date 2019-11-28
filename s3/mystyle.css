@@ -1,0 +1,203 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 65.2%;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.site-header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background: white;
+    color: black;
+    width: 100%;
+    height: 10vh;
+}
+
+.site-main{
+    background-image: url(img/volcano5.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200vh;
+    width: 100%;
+}
+
+main{
+    background: green;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-footer{
+    background: black;
+    height: 5vh;
+    font-size: 12px;
+    width: 100%;
+}
+
+nav{
+    padding: 10px;
+    padding-right: 30px;
+}
+
+.contact-info{
+    background-image: url(img/volcano6.jpg);
+    background-size: cover;
+    color: black;
+    height: 100vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 5px red;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px black;
+}
+
+.logo{
+    padding-left: 30px;
+}
+
+nav a{
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #d7d7d7;
+    justify-content: space-between;
+}
+
+.site-header-in {
+    display:flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 3px, solid #e1e413;
+}
+.main-pic-img{
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.main-pic{
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, .5);
+}
+
+.main-pic-text{
+    margin-top: -18px;
+    padding-top: 0px;
+    background: white;
+    color: black;
+    height: 80px;
+    width: 500px;
+}
+
+h2{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    border: solid 3px red;
+    background: black;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+}
+
+.animals{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+.square{
+    flex-basis: calc(30% - 10px);
+    padding: 10px;
+}
+
+.square-text{
+    text-align: center;
+    background: white;
+    widows: 300px;
+}
+
+.news-img{
+    width: 100%;
+    margin-bottom: auto;
+}
+
+.news-img:hover{
+    transition: scale(1.1);
+    border-bottom: 3px solid yellow;
+}
+
+h3{
+    text-transform: uppercase;
+    color: black;
+    font-size: 12px;
+}
+
+h4{
+    padding: 5px;
+}
+
+.button-news{
+    text-align: center;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+
+    background: #264912;
+    color: black;
+    padding: 10px;
+    width: 150px;
+    font-size: 14px;
+}
+
+h5:hover{
+    transform: scale(1.1);
+}
+
+.field-effect{    
+    background-image: linear-gradient( 135deg, lightgray 80%, slategray);
+}
+
+.field-label{
+    text-decoration: underline;
+}
+
+.submit-button{
+    width: 20%;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+    height: 30px;
+}
